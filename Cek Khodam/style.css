@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background: url(img/WhatsApp\ Image\ 2024-01-11\ at\ 22.17.16_3aefa274.jpg) no-repeat;
+    background-size: 50%;
+    background-position: center;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 120px 32px;
+    margin: 100px 320px;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    box-shadow: 2px 0px 2px 0px;
+    border-radius: 12px;
+    color: black;
+
+}
+
+.cek_kodam {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.nama {
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    gap: 8px;
+}
+
+
+input {
+    padding: 10px 32px 10px 6px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+
+
+
+button {
+    padding: 12px 32px;
+    width: 100%;
+    border: none;
+    background-color: rgb(26, 56, 134);
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(50, 113, 184);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: rgb(35, 35, 160);
+}
+
+.footer a:hover {
+    color: rgb(11, 11, 231);
+}
